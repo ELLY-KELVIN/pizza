@@ -154,6 +154,42 @@ section p {
     color: var(--clr4);
 }
 
+.myForm{
+     display: inline-block;
+     display: flex;
+     align-items: inherit;
+     height: 15vh;
+     margin-top: 2rem;
+     padding: 1.3rem 4rem;
+     font-size: 1.5rem;
+     text-transform: capitalize;
+     letter-spacing: .1rem;
+     font-weight: 1000;
+     color: #000;
+     background-color: rgba(128, 128, 128, 0.767);
+     border: none;
+     border-radius: .5rem;
+     box-shadow: 0rem 5rem 5rem rgba(196, 177, 177, 0.993);
+     transition: all 0.3s ease 0s;
+     cursor: pointer;
+     outline: none;
+
+}
+.myForm button {
+    background-color: #db411a; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 1000;
+  }
+  .myForm option{
+    font-weight: 500;
+
+  }
 .head .side-bar i:hover {
     background: var(--clr3);
     color: var(--clr4);
