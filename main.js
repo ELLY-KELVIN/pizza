@@ -73,14 +73,14 @@ $(document).ready(function () {
         }else if (myPizza.crust == 'Stuffed') {
             crustCost = 150;
         }else{
-            crustCost = 300
+            crustCost = 300;
         }
         //with toppings
 
         if (myPizza.toppings == 'pinneaple') {
             toppingsCost = 100;
         }else if (myPizza.toppings == 'beef') {
-            toppingsCost = 200
+            toppingsCost = 200;
         }else{
             toppingsCost = 300;
         }
@@ -94,7 +94,7 @@ $(document).ready(function () {
            deliveryCost = 0;
            $('#out').hide();
        }
-       var newPrice = (totalCost + deliveryCost)
+       var newPrice = (totalCost + deliveryCost);
      
        $('#hidden').show();
        $("#quantity").html(pizzaNumber);

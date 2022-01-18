@@ -154,42 +154,6 @@ section p {
     color: var(--clr4);
 }
 
-.myForm{
-     display: inline-block;
-     display: flex;
-     align-items: inherit;
-     height: 15vh;
-     margin-top: 2rem;
-     padding: 1.3rem 4rem;
-     font-size: 1.5rem;
-     text-transform: capitalize;
-     letter-spacing: .1rem;
-     font-weight: 1000;
-     color: #000;
-     background-color: rgba(128, 128, 128, 0.767);
-     border: none;
-     border-radius: .5rem;
-     box-shadow: 0rem 5rem 5rem rgba(196, 177, 177, 0.993);
-     transition: all 0.3s ease 0s;
-     cursor: pointer;
-     outline: none;
-
-}
-.myForm button {
-    background-color: #db411a; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 1000;
-  }
-  .myForm option{
-    font-weight: 500;
-
-  }
 .head .side-bar i:hover {
     background: var(--clr3);
     color: var(--clr4);
@@ -465,6 +429,44 @@ section p {
 .in-blog-content h2,
 .in-blog-content p {
     color: var(--clr3);
+}
+
+/* form section */
+#myForm{
+   
+    height: 30vh;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 1000;
+    color: #000;
+    background-color: lightgray;
+    border-radius: .5rem;
+    box-shadow: 0rem 2rem 2rem rgba(5, 4, 6, 0.6);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    line-height: 2.5rem;
+    
+}
+#myForm btn btn-primary{
+    background-color: red;
+    margin-top: 2rem;
+    padding: 1.3rem 4rem;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0rem 2rem 2rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+
 }
 
 
